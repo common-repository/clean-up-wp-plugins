@@ -1,0 +1,255 @@
+/*
+Plugin Name: Clean Up WP Plugins
+Plugin URI: https://github.com/dolatabadi/cleanup-wp-plugins
+Author: Dolatabadi
+Author URI: https://github.com/dolatabadi/
+Description: Clean up WordPress plugins from promotional banners, donation links, newsletter and unnecessary messages.
+Version: 1.0.3
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Core Style For Settings Page
+# All in One SEO Pack
+# Category Order and Taxonomy Terms Order and Post Type Orders
+# Custom Post Type UI
+# Google Analytics by MonsterInsights
+# Google XML Sitemaps
+# MailChimp for WordPress
+# Meta Slider
+# Ninja Forms
+# Popups - WordPress Popup
+# Responsive Lightbox by dFactory
+# User Role Editor
+# WordPress Popular Posts
+# WP User Avatar
+# WP Subscribe
+# Yoast SEO
+# WP Smush
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Core Style For Settings Page
+--------------------------------------------------------------*/
+.plugins-list ul {
+	margin-bottom: 20px;
+	overflow: hidden;
+	border-top: 1px solid #ccc;
+}
+
+.plugins-list li {
+	line-height: 1.5em;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	display: inline;
+}
+
+#double li {
+	width: 50%;
+}
+
+#triple li {
+	width: 33.333%;
+}
+
+/* fix the columns in mobile devices */
+@media (max-width: 500px) {
+	#triple li {
+		width: 100%;
+	}
+}
+
+/*--------------------------------------------------------------
+# All in One SEO Pack
+--------------------------------------------------------------*/
+.aioseop_top, .aioseop_sidebar {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+# Category Order and Taxonomy Terms Order and Post Type Orders
+--------------------------------------------------------------*/
+#cpt_info_box {
+	display: none !important;
+}
+
+.acf-column-2 {
+	display: none !important;
+}
+
+.acf-columns-2 {
+	margin-right: 0;
+}
+
+/*--------------------------------------------------------------
+# Google Analytics by MonsterInsights
+--------------------------------------------------------------*/
+#yoast-ga-wrapper .yoast-ga-banners {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+# Google XML Sitemaps
+--------------------------------------------------------------*/
+#side-sortables #dm_donations {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+# Meta Slider
+--------------------------------------------------------------*/
+/* Remove the social sharing box */
+#metaslider_social {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+# Ninja Forms
+--------------------------------------------------------------*/
+#nf-admin-notice-three-is-coming {
+	display: none !important;
+}
+
+/* upgrade notice */
+.nf-admin-notice {
+	display: none !important;
+}
+
+/* ninja banner on add-on page */
+.nf-brand-header {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+# User Role Editor
+--------------------------------------------------------------*/
+.ure-sidebar {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+# WP User Avatar
+--------------------------------------------------------------*/
+/* remove the sidebar containing pro version details */
+#fc-sidebar {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+# WP Subscribe
+--------------------------------------------------------------*/
+#wpsubscribe-notice {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+# Yoast SEO
+--------------------------------------------------------------*/
+.wpseo_content_wrapper #sidebar-container {
+	display: none !important;
+}
+
+#i18n_promo_box {
+	display: none !important;
+}
+
+.yoast_premium_upsell_admin_block {
+	display: none !important;
+}
+
+.toplevel_page_wpseo_dashboard .wp-submenu li:last-child {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+# WP Smush
+--------------------------------------------------------------*/
+/* remove the welcome box */
+#wp-smush-welcome-box {
+	display: none !important;
+}
+
+/* remove the pro version promo box */
+#wp-smush-pro-settings-box {
+	display: none !important;
+}
+
+/* remove the try pro for free box */
+.wp-smush-pro-for-free.wp-smushit-container-left.col-half.float-l {
+	display: none !important;
+}
+
+/* remove the hummingbird box */
+#wp-smush-hb-promo {
+	display: none !important;
+}
+
+/* remove the promo under bulk smuch */
+.wp-smush-super-smush-promo {
+	display: none !important;
+}
+
+/* adding bottom padding to fix the hidden element issue */
+.wp-smush-bulk-wrapper, .wp-smush-bulk-progress-bar-wrapper.hidden {
+	padding-bottom: 20px !important;
+}
+
+/*--------------------------------------------------------------
+# Popups - WordPress Popup
+--------------------------------------------------------------*/
+#spu-premium, #spu-support, #spu-donate, #spu-links {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+# MailChimp for WordPress
+--------------------------------------------------------------*/
+#mc4wp-admin .col-2 {
+	display: none !important;
+}
+
+#mc4wp-admin .row .col-4, .mc4wp-admin .row .col-4 {
+	width: 100% !important;
+}
+
+#mc4wp-admin .notice, #mc4wp-admin .big-margin {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+# Custom Post Type UI
+--------------------------------------------------------------*/
+.wdspromos, .extranotes {
+	display: none !important;
+}
+.toplevel_page_cptui_main_menu .wp-submenu li:last-child {
+	display: none !important;
+}
+.toplevel_page_cptui_main_menu .wp-submenu li:nth-last-child(2) {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+# Responsive Lightbox by dFactory
+--------------------------------------------------------------*/
+.responsive-lightbox-settings .df-credits{
+	display: none !important;
+}
+/* hide the add-ons tab */
+.settings_page_responsive-lightbox .nav-tab-wrapper .nav-tab:last-child{
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
+# WordPress Popular Posts
+--------------------------------------------------------------*/
+#wpp_donate,
+#wpp_advertisement,
+#wpp-message,
+#wpp_support{
+	display: none !important;
+}
+.settings_page_wordpress-popular-posts .nav-tab-wrapper .nav-tab:last-child{
+	display: none !important;
+}

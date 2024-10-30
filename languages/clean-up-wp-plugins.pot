@@ -1,0 +1,101 @@
+# Copyright (C) 2016 Clean Up WordPress Plugins
+# This file is distributed under the same license as the Clean Up WordPress Plugins package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Clean Up WordPress Plugins 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/clean-up-wp-"
+"plugins\n"
+"POT-Creation-Date: 2016-08-05 18:03:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. #-#-#-#-#  plugin.pot (Clean Up WordPress Plugins 1.0.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: cleanup-wp-plugins.php:42
+msgid "Clean Up WordPress Plugins"
+msgstr ""
+
+#: cleanup-wp-plugins.php:45
+msgid "Description"
+msgstr ""
+
+#: cleanup-wp-plugins.php:46
+msgid ""
+"This is a simple plugin which once activated removes (hides) promotional "
+"banners, donation buttons, newsletter forms, and unnecessary messages from "
+"popular WordPress plugins."
+msgstr ""
+
+#: cleanup-wp-plugins.php:48
+msgid "List of Supported Plugins"
+msgstr ""
+
+#: cleanup-wp-plugins.php:49
+msgid "Currently the following plugins are cleaned up:"
+msgstr ""
+
+#: cleanup-wp-plugins.php:70
+msgid "Submit a Plugin for Clean Up"
+msgstr ""
+
+#: cleanup-wp-plugins.php:71
+msgid ""
+"If a plugin contains many banners and promotional links, you can submit it "
+"for consideration. Once your request is accepted, the plugin will be added "
+"in future releases."
+msgstr ""
+
+#: cleanup-wp-plugins.php:74
+msgid "Submit Your Requests"
+msgstr ""
+
+#: cleanup-wp-plugins.php:76
+msgid ""
+"<strong>Note: </strong>Please only request plugins which are available "
+"through WordPress official plugins directory."
+msgstr ""
+
+#: cleanup-wp-plugins.php:80
+msgid "Please Consider Supporting Developers"
+msgstr ""
+
+#: cleanup-wp-plugins.php:81
+msgid ""
+"The purpose of this plugin is to make option pages look simpler by allowing "
+"users to remove/hide promotional banners and unnecessary messages. Please "
+"consider supporting your favourit plugins by donating or purchasing the pro "
+"versions."
+msgstr ""
+
+#: cleanup-wp-plugins.php:82
+msgid ""
+"This plugin does not discourage users from supporting these plugins, in "
+"fact, if you like a plugin it is highly recommended that you leave a review, "
+"or donate to support the development of those plugins."
+msgstr ""
+
+#: cleanup-wp-plugins.php:92
+msgid "Settings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/dolatabadi/cleanup-wp-plugins"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Clean up WordPress plugins from promotional banners, donation links, "
+"newsletter and unnecessary messages."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dolatabadi"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/dolatabadi/"
+msgstr ""
